@@ -1,0 +1,24 @@
+/**
+ * [Method Name]: Brief description of the method.
+ *
+ * <p><b>Intuition:</b></p>
+ * [Explain the thought process or reasoning behind the approach used in the method.]
+ *
+ * <p><b>Algorithm:</b></p>
+ * 1. [Step 1 description of the algorithm]
+ * 2. [Step 2 description of the algorithm]
+ * 3. [Step 3 description of the algorithm]
+ * ...
+ *
+ * <p><b>Time Complexity:</b></p>
+ * O([complexity]) - [Explanation of why this is the time complexity]
+ *
+ * <p><b>Space Complexity:</b></p>
+ * O([complexity]) - [Explanation of why this is the space complexity]
+ *
+ * @param [paramName] [Description of the parameter]
+ * @return [Description of the return value]
+ */
+public [returnType] [methodName]([parameters]) {
+    // Method implementation
+}
