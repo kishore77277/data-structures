@@ -1,7 +1,7 @@
 package com.dsa.leetcode.daily.year2025.january;
 
 // https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/?envType=daily-question&envId=2025-01-01
-public class MaximumScoreAfterSplittingAString_1422 {
+public class Day_01_MaximumScoreAfterSplittingAString_1422 {
 
     public int maxScore(String s) {
 //        return bruteForce(s);

@@ -3,7 +3,7 @@ package com.dsa.leetcode.daily.year2025.january;
 import java.util.Set;
 
 // https://leetcode.com/problems/count-vowel-strings-in-ranges/description/?envType=daily-question&envId=2025-01-02
-public class CountVowelStringsInRanges_2559_Day_02 {
+public class Day_02_CountVowelStringsInRanges_2559 {
 
     private final Set<Character> VOWELS = Set.of('a', 'e', 'i', 'o', 'u');
 

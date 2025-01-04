@@ -1,7 +1,7 @@
 package com.dsa.leetcode.daily.year2025.january;
 
 // https://leetcode.com/problems/number-of-ways-to-split-array/description/?envType=daily-question&envId=2025-01-03
-public class NumberOfWaysToSplitArray_2770_Day_03 {
+public class Day_03_NumberOfWaysToSplitArray_2770 {
 
     public int waysToSplitArray(int[] nums) {
         // return bruteForce(nums);

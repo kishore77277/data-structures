@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class UniqueLength_3_PalindromicSubsequences_1930_Day_04 {
+public class Day_04_UniqueLength_3_PalindromicSubsequences_1930 {
 
     public int countPalindromicSubsequence(String s) {
         // return bruteForce(s);
