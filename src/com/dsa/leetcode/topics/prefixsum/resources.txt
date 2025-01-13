@@ -1,2 +1,98 @@
 https://leetcode.com/discuss/study-guide/4023666/prefix-sum-questions-to-practice
 https://leetcode.com/discuss/study-guide/5119937/prefix-sum-problems
+
+
+Easy Problems
+Running Sum of 1d Array
+
+Platform: LeetCode (Problem #1480)
+Description: Compute the running sum of a 1D array.
+Key Concept: Basic prefix sum.
+Problem Link
+Find Pivot Index
+
+Platform: LeetCode (Problem #724)
+Description: Find the pivot index where the sum of numbers on the left is equal to the sum on the right.
+Key Concept: Prefix sum for balancing.
+Problem Link
+Subarray Sum Equals K
+
+Platform: LeetCode (Problem #560)
+Description: Find the number of subarrays whose sum equals k.
+Key Concept: Use a prefix sum map to track occurrences.
+Problem Link
+Medium Problems
+Range Sum Query - Immutable
+
+Platform: LeetCode (Problem #303)
+Description: Efficiently compute the sum of elements between indices i and j multiple times.
+Key Concept: Precompute prefix sums for fast queries.
+Problem Link
+Maximum Size Subarray Sum Equals k
+
+Platform: LeetCode (Problem #325)
+Description: Find the maximum length of a subarray whose sum equals k.
+Key Concept: Use prefix sum and a hashmap for optimization.
+Problem Link
+Find the Longest Subarray by Sum
+
+Platform: HackerRank
+Description: Find the longest subarray where the sum equals a given value.
+Key Concept: Sliding window with prefix sums.
+Problem Link
+Continuous Subarray Sum
+
+Platform: LeetCode (Problem #523)
+Description: Check if the array has a subarray whose sum is a multiple of k.
+Key Concept: Use prefix sums and modular arithmetic.
+Problem Link
+Range Sum Query 2D - Immutable
+
+Platform: LeetCode (Problem #304)
+Description: Precompute a 2D prefix sum for efficient range sum queries in a matrix.
+Key Concept: 2D prefix sum array.
+Problem Link
+Hard Problems
+Count Number of Nice Subarrays
+
+Platform: LeetCode (Problem #1248)
+Description: Count the number of subarrays with exactly k odd numbers.
+Key Concept: Prefix sum with constraints.
+Problem Link
+Maximum Sum of Two Non-Overlapping Subarrays
+
+Platform: LeetCode (Problem #1031)
+Description: Find two non-overlapping subarrays with maximum sum.
+Key Concept: Prefix sum with overlapping constraints.
+Problem Link
+Split Array into Consecutive Subsequences
+
+Platform: LeetCode (Problem #659)
+Description: Split an array into subarrays of consecutive integers.
+Key Concept: Prefix sum with frequency maps.
+Problem Link
+Minimum Moves to Equal Array Elements II
+
+Platform: LeetCode (Problem #462)
+Description: Find the minimum moves required to make all elements equal using prefix sums.
+Key Concept: Optimize the sum of distances.
+Problem Link
+Subarrays with K Different Integers
+
+Platform: LeetCode (Problem #992)
+Description: Find the number of subarrays with exactly k different integers.
+Key Concept: Advanced prefix sum and sliding window.
+Problem Link
+Matrix Block Sum
+
+Platform: LeetCode (Problem #1314)
+Description: Calculate block sums for every element in a matrix.
+Key Concept: Use a 2D prefix sum for optimized computation.
+Problem Link
+Maximum Sum of 3 Non-Overlapping Subarrays
+
+Platform: LeetCode (Problem #689)
+Description: Find three non-overlapping subarrays with maximum sum.
+Key Concept: Combine prefix sum with dynamic programming.
+Problem Link
+
