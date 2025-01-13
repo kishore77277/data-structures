@@ -1,0 +1,7 @@
+Constraints:
+
+2 <= nums.length <= 105
+-105 <= nums[i] <= 105
+
+    if constraints are like this:
+        we should use long to sum up the elements otherwise we will get integer overflow
