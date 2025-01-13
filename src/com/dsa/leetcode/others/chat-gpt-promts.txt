@@ -1,19 +1,20 @@
 /**
  * [Method Name]: Brief description of the method.
  *
- * <p><b>Intuition:</b></p>
+ * <b>Intuition:</b>
  * [Explain the thought process or reasoning behind the approach used in the method.]
  *
- * <p><b>Algorithm:</b></p>
- * 1. [Step 1 description of the algorithm]
- * 2. [Step 2 description of the algorithm]
- * 3. [Step 3 description of the algorithm]
- * ...
+ * <b>Algorithm:</b>
+ * <pre>
+ * 1. Iterate through each possible starting index `i`.
+ * 2. For each starting index, iterate through the array to calculate subarray sums.
+ * 3. If the sum equals `k`, update the maximum subarray length.
+ * </pre>
  *
- * <p><b>Time Complexity:</b></p>
+ * <b>Time Complexity:</b>
  * O([complexity]) - [Explanation of why this is the time complexity]
  *
- * <p><b>Space Complexity:</b></p>
+ * <b>Space Complexity:</b>
  * O([complexity]) - [Explanation of why this is the space complexity]
  *
  * @param [paramName] [Description of the parameter]
