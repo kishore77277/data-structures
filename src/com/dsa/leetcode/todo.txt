@@ -1,0 +1,20 @@
+// todo : 1004. Max Consecutive Ones III
+//  try similar questions, once you get time
+
+// todo : 2215. Find the Difference of Two Arrays
+// try similar questions
+
+// todo : 859. Buddy Strings
+// try similar questions
+
+// todo : 1657. Determine if Two Strings Are Close
+// try similar questions
+
+// todo : 735. Asteroid Collision
+// try similar questions
+
+// todo : 3. Longest Substring Without Repeating Characters
+// look at similar questions
+
+// todo : 1004. Max Consecutive Ones III
+// look at similar questions
