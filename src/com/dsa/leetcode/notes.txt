@@ -5,3 +5,16 @@ Constraints:
 
     if constraints are like this:
         we should use long to sum up the elements otherwise we will get integer overflow
+
+
+
+prompt - to generate java docs
+
+Can you add comprehensive JavaDocs for each method in this class? For each method, please include:
+A clear and concise summary of what the method does
+The intuition and reasoning behind the approach used
+A step-by-step explanation of the algorithm or logic
+Detailed descriptions of all parameters and the return value
+An explicit analysis of time and space complexity (add <br> before each so they appear on separate lines)
+Any edge cases or important considerations relevant to the method
+Ensure the documentation is clear, professional, and suitable for both beginners and experienced developers.
