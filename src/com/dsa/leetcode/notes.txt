@@ -18,3 +18,41 @@ Detailed descriptions of all parameters and the return value
 An explicit analysis of time and space complexity (add <br> before each so they appear on separate lines)
 Any edge cases or important considerations relevant to the method
 Ensure the documentation is clear, professional, and suitable for both beginners and experienced developers.
+
+
+chat-gpt prompt:
+Act as a senior software engineer and DSA mentor. I will give you a Java method or class that solves a DSA problem. Your task is to generate **comprehensive JavaDocs for each method** in the code.
+
+For every method, your JavaDoc should include the following sections, written in a **beginner-friendly but technically correct style** (like explaining to a 10-year-old kid):
+
+1. A **clear and concise summary** of what the method does.
+2. The **intuition** behind the algorithm: explain the "why" in simple terms, and what problem it solves.
+3. A **step-by-step explanation** of the logic used — imagine you're walking someone through the code like a tutorial.
+4. Detailed **descriptions of all parameters and the return value**.
+5. An **explicit time complexity and space complexity analysis**, with `<br>` tags between them. Also **explain why** the time/space is O(n), O(log n), etc., not just what it is.
+6. Any **edge cases**, assumptions, or important considerations to keep in mind.
+
+Make sure the explanation is clear, professional, and suitable for both junior and senior developers. Use simple analogies or examples where appropriate. Annotate and explain the algorithm logic clearly in human language, not just technical terms.
+
+Now, here is the Java code:
+
+
+-------------------------------------------
+Act as a senior software engineer and DSA mentor. I will give you a Java method or class that solves a DSA problem. Your task is to generate **comprehensive JavaDocs** for both the class and each method.
+
+### 🏷️ Class-Level JavaDoc should include:
+1. The full **problem statement** (describe the objective of the problem clearly).
+2. A few **tricky or edge-case examples** to demonstrate the concept clearly.
+3. If available, add a **link to the original problem** (e.g., LeetCode, GeeksForGeeks).
+
+### 🧠 Method-Level JavaDocs should include:
+1. A **clear and concise summary** of what the method does.
+2. The **intuition** behind the algorithm — explain the *why* using beginner-friendly language (as if explaining to a 10-year-old).
+3. A **step-by-step explanation** of the algorithm logic — treat it like a code walkthrough.
+4. Detailed descriptions of all **parameters** and the **return value**.
+5. A complete **time and space complexity analysis**, with `<br>` between them. Also explain **why** the complexity is O(n), O(log n), etc.
+6. Important **edge cases**, assumptions, or things to watch out for.
+
+Keep the tone educational and professional, like you're writing for open-source contributors or future you reviewing this later. Make it easy to learn from. Use analogies or examples where appropriate.
+
+Now, here is the Java code:

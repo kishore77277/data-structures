@@ -1,0 +1,70 @@
+
+Where to Use Sliding Window:
+This technique is particularly useful for problems that involve:
+
+1. Finding the maximum/minimum sum/product of a subarray of a fixed size k.
+2. Finding the longest/shortest subarray/substring that satisfies a certain condition (e.g., sum is greater than X, contains k distinct characters, no repeating characters).
+3. Counting occurrences of anagrams or specific patterns within a larger string.
+4. Problems where you need to analyze or process all contiguous sub-segments of a particular length or that fulfill a specific property.
+
+📘 DSA NOTES: Can Two Pointers Be Used with Negative Numbers?
+==============================================================
+
+Q: Is the **two pointers / sliding window** technique only applicable to **positive numbers**?
+
+✅ Answer: YES, it **typically works only when all elements in the array are non-negative (positive or zero)**.
+
+--------------------------------------------------------------
+💡 Why Two Pointers Work Only with Positive Numbers:
+--------------------------------------------------------------
+- The core idea of sliding window is:
+  > “If the current window is invalid (sum > k), shrink it from the left to make it valid.”
+
+- This assumes:
+  ➤ Expanding the window (right++) increases sum
+  ➤ Shrinking the window (left++) decreases sum
+
+- ✅ These assumptions **only hold true** when all elements are **positive**.
+
+--------------------------------------------------------------
+❌ What Goes Wrong with Negative Numbers?
+--------------------------------------------------------------
+- If the array contains negative numbers, removing a number from the window might **increase** the sum.
+
+Example:
+arr = [2, 1, -3, 4, 5], k = 6
+→ [2, 1, -3, 4] has sum = 4 ✅
+→ Add 5 → sum = 9 ❌
+→ Remove 2 → sum = 7 ❌ (sum increased?! 😨)
+
+- This breaks the sliding window logic. So the approach becomes unreliable.
+
+--------------------------------------------------------------
+✅ When Can You Use Two Pointers?
+--------------------------------------------------------------
+| Condition                        | Use Two Pointers? | Reason                                     |
+|----------------------------------|-------------------|--------------------------------------------|
+| All elements ≥ 0 (non-negative)  | ✅ Yes             | Shrinking window always reduces sum        |
+| Contains negative numbers        | ❌ No              | Shrinking may increase sum unpredictably   |
+
+--------------------------------------------------------------
+🧠 Alternative Approach for Arrays with Negative Numbers:
+--------------------------------------------------------------
+Use **Prefix Sum + Balanced BST (e.g. TreeSet in Java)**
+
+- Track cumulative (prefix) sums
+- For each new prefix sum, find the smallest prefix such that:
+  ➤ current_prefix_sum - earlier_prefix_sum ≤ k
+
+- This works even if array contains negative numbers
+
+Use cases:
+➤ LeetCode #363: Max Sum of Rectangle No Larger Than K
+➤ LeetCode #862: Shortest Subarray with Sum at Least K
+
+--------------------------------------------------------------
+📝 Summary
+--------------------------------------------------------------
+- Two pointers (sliding window) is **safe only for non-negative arrays**
+- Negative numbers can cause unpredictable sum changes
+- Use **prefix sums + BST** to handle negatives
