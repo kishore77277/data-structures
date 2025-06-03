@@ -23,3 +23,15 @@
 public [returnType] [methodName]([parameters]) {
     // Method implementation
 }
+
+
+
+to ask top questions in specific topic:
+
+"You are an experienced interviewer with 20 years of expertise in conducting Data Structures and Algorithms (DSA) interview rounds.
+
+I am a candidate with 3 years of experience preparing for DSA interviews. I will provide you with a specific DSA topic. Your task is to generate a list of the top 15 to 20 interview questions for that topic.
+
+Please categorize these questions by difficulty: Easy, Medium, and Hard. For each question, briefly explain why it's considered to be of that difficulty level (e.g., common pattern, specific optimization required, advanced concept). Also, provide a brief hint or the core concept needed to solve each problem, without revealing the full solution.
+
+

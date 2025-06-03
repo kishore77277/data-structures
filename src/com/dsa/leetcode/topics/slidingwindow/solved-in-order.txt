@@ -1,0 +1,62 @@
+roadmap:
+1. MaxSumSubArrayOfSizeK
+2. LongestSubArrayHavingSumOfElementsAtMostK
+3. MaximumPointsYouCanObtainFromCards_1423
+4. LongestSubstringWithoutRepeatingCharacters_3
+5. MaxConsecutiveOnes_III_1004
+6. FruitIntoBaskets_904
+7. LongestSubstringWithAtMostKDistinctCharacters
+8. NumberOfSubstringsContainingAllThreeCharacters_1358
+9. LongestRepeatingCharacterReplacement_424
+10. BinarySubArraysWithSum_930
+11. CountNumberOfNiceSubArrays_1248
+12. SubArraysWithKDifferentIntegers_992
+13.
+
+
+by-ai-in-order:
+🔰 Easy (Common Patterns, Fixed Window Size)
+    1. Maximum Sum Subarray of Size K
+       MaxSumSubArrayOfSizeK
+    2. Find All Anagrams in a String
+       FindAllAnagramsInAString_438
+    3. Longest Substring with At Most K Distinct Characters
+       LongestSubstringWithAtMostKDistinctCharacters
+    4. Permutation in String
+       PermutationInString_567
+    5. Number of Substrings Containing All Characters of a Given Set
+         NumberOfSubstringsContainingAllThreeCharacters_1358
+
+⚙️ Medium (Dynamic Window, Optimization Required)
+1. Longest Substring Without Repeating Characters
+   LongestSubstringWithoutRepeatingCharacters_3
+2. Minimum Window Substring
+   // TODO : give some to time learn this problem
+3. Maximum Number of Vowels in a Substring of Given Length
+    MaximumNumberOfVowelsInSubstringOfGivenLength_1456
+4. Sliding Window Maximum
+    SlidingWindowMaximum_239
+5. Count Number of Nice Subarrays (Subarrays with Exactly K Odd Numbers)
+    CountNumberOfNiceSubArrays_1248
+6. Longest Subarray with Sum Less Than or Equal to K
+    LongestSubArrayHavingSumOfElementsAtMostK
+7. Max Consecutive Ones III
+    MaxConsecutiveOnes_III_1004
+
+🔥 Hard (Multiple Conditions, Advanced Optimization, Edge Cases)
+1. Count Number of Subarrays with Exactly K Distinct Integers
+    SubArraysWithKDifferentIntegers_992
+2. Longest Substring with At Most K Repeating Characters
+    LongestRepeatingCharacterReplacement_424
+3. Maximum Points You Can Obtain from Cards
+    MaximumPointsYouCanObtainFromCards_1423
+4. Maximum Sum of Distinct Subarrays With Length K
+    MaximumSumOfDistinctSubArraysWithLengthK_2461
+5. Fruit Into Baskets
+    FruitIntoBaskets_904
+6. Subarrays with K Different Integers
+    SubArraysWithKDifferentIntegers_992
+7. Minimum Operations to Reduce X to Zero
+    // todo : give some time to learn this problem
+8. Binary Subarrays with Sum
+    BinarySubArraysWithSum_930
