@@ -1,0 +1,24 @@
+
+kunal:
+1. Level order
+    LevelOrder
+2. Average of each level
+   AverageOfLevels
+3. Level order successor
+    LevelOrderSuccessor
+4. 103. Binary Tree Zigzag Level Order Traversal
+    BinaryTreeZigzagLevelOrderTraversal_103
+5. 107. Binary Tree Level Order Traversal II
+    BinaryTreeLevelOrderTraversalII_107
+6. 116. Populating Next Right Pointers in Each Node
+    PopulatingNextRightPointersInEachNode_116
+7. 117. Populating Next Right Pointers in Each Node II
+    PopulatingNextRightPointersInEachNodeII_117
+    // TODO: try to solve this without using extra space
+8. Right side view of binary tree
+   RightSideViewOfBinaryTree
+9. 993. Cousins in Binary Tree
+   CousinsInBinaryTree_993
+   // TODO; try this and understand the concept of cousins in binary tree
+10. 101. Symmetric Tree
+    SymmetricTree_101
