@@ -15,3 +15,25 @@
     PalindromeLinkedList_234
 8. 328. Odd Even Linked List
     OddEvenLinkedList_328
+9. Sort a linked list of 0s, 1s and 2s
+    SortLinkedList012_GFG
+10. 19. Remove Nth Node From End of List
+    RemoveNthNodeFromEndOfList_19
+11. 206. Reverse Linked List
+    ReverseLinkedList_206
+12. 234. Palindrome Linked List
+    PalindromeLinkedList_234
+13. Add 1 to a number represented by a linked list
+    AddOneToLinkedList_GFG
+14. 160. Intersection of Two Linked Lists
+    IntersectionOfTwoLinkedLists_160
+15. 876. Middle of the Linked List
+    MiddleOfTheLinkedList_876
+16. 141. Linked List Cycle
+    LinkedListCycle_141
+17. Find the length of a loop in a linked list
+    FindLengthOfLoopInLinkedList_GFG
+18. 2095. Delete the Middle Node of a Linked List
+    DeleteMiddleNodeOfLinkedList_2095
+19. 142. Linked List Cycle II
+    LinkedListCycleII_142

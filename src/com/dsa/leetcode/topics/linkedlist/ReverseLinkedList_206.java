@@ -1,11 +1,13 @@
 package com.dsa.leetcode.topics.linkedlist;
 
+import java.util.Stack;
+
 public class ReverseLinkedList_206 {
 
     public ListNode usingStackBruteForce(ListNode head) {
         if (head == null) return null;
 
-        java.util.Stack<ListNode> stack = new java.util.Stack<>();
+        Stack<ListNode> stack = new Stack<>();
         ListNode current = head;
 
         // Push all nodes onto the stack

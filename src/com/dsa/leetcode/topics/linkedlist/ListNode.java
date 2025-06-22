@@ -1,8 +1,8 @@
 package com.dsa.leetcode.topics.linkedlist;
 
 public class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int x) { val = x; }
+    public int val;
+    public ListNode next;
+    public ListNode() {}
+    public ListNode(int x) { val = x; }
 }
